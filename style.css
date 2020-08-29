@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&family=Noto+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted #EAF6F6;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 7%;
+
+}
+.top-container {
+    background-color: #eaf6f6;
+    position: relative;
+    margin-bottom: 0;    
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Amatic SC', cursive;
+    width: 30%;
+    margin: 70px auto 0 auto;
+    color: #66BFBF;
+}
+
+#heading-subtitle {
+    line-height: 2px;
+   font-family: 'Amatic SC',cursive;
+   font-weight: normal;
+   font-size: 2rem;
+   color: #66BFBF;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #125555;
+}
+
+h3 {
+    font-size: 2rem;
+    
+   
+    color: #125555;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+a:hover {
+    color: #8de1e4;
+}
+
+
+#profile-pic {
+    width: 30%;
+    margin-top: 4em;
+
+}
+
+#c-logo {
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+}
+
+
+#photoshop-logo {
+    width: 30%;
+    float: right;
+        margin-left: 30px;
+
+    
+}
+#writing {
+     width: 30%;
+     float: left;
+         margin-right: 40px;
+
+}
+.top-cloud {
+    position: absolute;
+    width: 12%;
+    right: 300px;
+    top: 100px;
+}
+
+.middle-cloud {
+    position: absolute;
+    width: 12%;
+    bottom: 300px;
+    left: 300px;
+}
+
+.middle-cloud-1 {
+    position: absolute;
+    width: 12%;
+    top: 100px;
+    left: 150px;
+}
+
+
+
+.mountain {
+    width: 60%;
+}
+
+
+
+.middle-container {
+    position: relative;
+    background: rgb(102, 191, 191);
+    background: linear-gradient(0deg, rgba(102, 191, 191, 1) 0%, rgba(234, 246, 246, 1) 100%);
+
+    
+}
+
+.profile {
+    background-color: white;
+     width: 50%;
+     margin: 0 auto 4rem auto;
+     width: 50%;
+     position: relative;
+        top: 60px;
+        border-radius: 50px ;
+        padding: 50px;
+}
+
+
+
+
+
+.skill-row {
+    background-color: white;
+    border-radius: 50px;
+     width: 50%;
+    margin: 2rem auto 5rem auto;
+    text-align: left;
+    line-height: 2em;
+    padding: 2em;
+}
+
+.contact-me {
+    background-color: white;
+    position: relative;
+    bottom: 60px;
+    border-radius: 50px;
+    width: 30%;
+    padding: 50px;
+    margin: 0 auto 0 auto;
+
+}
+
+
+
+.bottom-container {
+    position: relative;
+    background-color: whitesmoke;
+    padding: 2em 0 2em;
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
